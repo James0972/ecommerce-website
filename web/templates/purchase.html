@@ -1,0 +1,7 @@
+{% extends 'base.html' %} {% block content %}
+<h2>Thank you for your purchase!</h2>
+<p>
+  You have successfully bought {{ items.name }}. Your remaining balance is K{{
+  user.userprofile.balance }}.
+</p>
+{% endblock %}
